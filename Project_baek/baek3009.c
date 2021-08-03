@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #define SIZE 4
 int point(int* str) {
-    int* p = str;
     int com;
     int mark=0;
     int markPoint;
