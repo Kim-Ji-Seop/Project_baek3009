@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #define SIZE 4
 int point(int* str) {
+ 
     int com;
     int mark=0;
     int markPoint;
@@ -23,9 +24,9 @@ int point(int* str) {
     
 }
 int main() {
-	int x[4] = { 0, };
+    int x[4] = { 0, };
     int y[4] = { 0, };
-	for (int i = 0; i < SIZE - 1; i++) {
+    for (int i = 0; i < SIZE - 1; i++) {
         scanf("%d %d", &x[i], &y[i]);
     }
     x[3] = point(x);
